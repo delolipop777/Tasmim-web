@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ALOQA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="home.html"><img src="images/logo v2.png" alt="Logo" class="logo" /></a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="home.html">ASOSIY</a></li>
+          <li><a href="aboutus.html">BIZ HAQIMIZDA</a></li>
+          <li><a href="services.html">XIZMATLARIMIZ</a></li>
+          <li><a href="contact.html">ALOQA</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="contact-section">
+      <h2>Biz bilan bogʻlaning</h2>
+      <p class="ok" id="ok">Xabaringiz muvoffaqiyatli jo'natildi</p>
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="form">
+        <input type="hidden" name="access_key" value="1cb43389-2804-493b-b95a-6db94f99a4fe" />
+        <label for="ism">Ismingiz:</label>
+        <input type="text" id="ism" name="ism" placeholder="Muhammad" required />
+        <label for="email">Email manzilingiz:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required />
+        <label for="xabar">Xabaringiz:</label>
+        <textarea id="xabar" name="xabar" rows="4" placeholder="Xabaringizni yozing" required></textarea>
+        <button type="submit">Yuborish</button>
+      </form>
+    </section>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
